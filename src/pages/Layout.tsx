@@ -7,8 +7,8 @@ const Layout = () => {
   return (
     <>
       <NavBar />
-      {/* Wherever Layout is used in routes.tsx, the children element will be substituted into the Outlet component */}
       <Box padding={5}>
+        {/* Wherever Layout is used in routes.tsx, the children element will be substituted into the Outlet component */}
         <Outlet />
       </Box>
     </>
